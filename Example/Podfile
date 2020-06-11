@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'lzqKit_Example' do
+  pod 'lzqKit', :path => '../'
+
+  target 'lzqKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
